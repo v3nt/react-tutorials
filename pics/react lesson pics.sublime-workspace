@@ -1,0 +1,1767 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"grid",
+				"grid-auto-flow\tproperty"
+			],
+			[
+				"grid-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"image",
+				"ImageList"
+			],
+			[
+				"on",
+				"onSubmit"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"React",
+				"ReactDOM"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"c",
+				"checked\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"fn",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"text",
+				"text-transform\tproperty"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"l",
+				"lowercase"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"tran",
+				"transform\tproperty"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"trans",
+				"transform-origin\tproperty"
+			],
+			[
+				"fl",
+				"flex\tproperty"
+			],
+			[
+				"hl-",
+				"hl-JSF_24_3_Kolchinsky.jpg\tw:1215 h:811"
+			],
+			[
+				"h",
+				"hl-JWM_21_3_Sosner.jpg\tw:1215 h:811"
+			],
+			[
+				"hl",
+				"hl-JOR_6_2_Waring.jpg\tw:1215 h:811"
+			],
+			[
+				"a-",
+				"a-Shiller.jpg\tw:600 h:600"
+			],
+			[
+				"a-t",
+				"a-Tobin.jpg\tw:600 h:600"
+			],
+			[
+				"j-",
+				"j-jsf.png\tw:364 h:110"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"border-top-",
+				"border-top-width"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"make",
+				"make-sm-column"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"font-s",
+				"font-size-small"
+			],
+			[
+				"font-",
+				"font-size-small"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"font-fa",
+				"font-family-serif"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"strr",
+				"str_replace"
+			],
+			[
+				"strre",
+				"strreplace"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"bott",
+				"bottom"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"gray-light",
+				"gray-lighter"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"wonk",
+				"wonkhe-roots-master"
+			],
+			[
+				"theme",
+				"theme__title"
+			],
+			[
+				"bo",
+				"border-left"
+			],
+			[
+				"meta",
+				"meta__title"
+			],
+			[
+				"pading",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"font-famil",
+				"headings-font-family"
+			],
+			[
+				"bottom",
+				"border-bottom-color"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"pd",
+				"padding-top"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"font-si",
+				"font-size-large"
+			],
+			[
+				"Font",
+				"font-size"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"strt",
+				"strtotime"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"2am",
+				"2am-master"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"gal",
+				"gallery-item--is-project"
+			],
+			[
+				"bord",
+				"border-style"
+			],
+			[
+				"nav",
+				"navbar-default"
+			],
+			[
+				"heading",
+				"headings-font-family-bold"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"padin",
+				"padding"
+			],
+			[
+				"ta",
+				"target\tAttr"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"brand-",
+				"brand-publication"
+			],
+			[
+				"brand",
+				"brand-publication"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"single",
+				"single-staff"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"magin",
+				"margin-right"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"sinlge",
+				"single-publications"
+			],
+			[
+				"sing",
+				"single"
+			],
+			[
+				"border-bottom",
+				"border-bottom-width"
+			],
+			[
+				"border-b",
+				"border-bottom-style"
+			],
+			[
+				"ar",
+				"article\tTag"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"post_",
+				"post_type"
+			],
+			[
+				"navbar",
+				"navbar-collapse"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/components/App.js",
+			"settings":
+			{
+				"buffer_size": 889,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 1848,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/ImageList.js",
+			"settings":
+			{
+				"buffer_size": 898,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/ImageCard.js",
+			"settings":
+			{
+				"buffer_size": 974,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/SearchBar.js",
+			"settings":
+			{
+				"buffer_size": 937,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "SearchBar.js"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"renam",
+				"Rename File"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"notes",
+				"Snippet: React: PropTypes.func"
+			],
+			[
+				"side bar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reanm",
+				"Rename File"
+			],
+			[
+				"prett",
+				"JsPrettier: Format Code"
+			],
+			[
+				"JsPrettier",
+				"Preferences: JsPrettier Settings - Default"
+			],
+			[
+				"form",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"format jsx",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"open side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"format css",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"format html",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"termn",
+				"Terminal: Open in project folder"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"for",
+				"CodeFormatter: Format as SCSS Syntax"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"format ",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"format js",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"fo",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"format j",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"t",
+				"Terminal: Open in project folder"
+			],
+			[
+				"in",
+				"Indexing Status"
+			],
+			[
+				"ter",
+				"Terminal: Open in project folder"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"convert",
+				"HSL: Convert Selected RGB to HSLA"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"pick",
+				"Color Picker"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/danielcrabbe/Learning/react/pics",
+		"/Users/danielcrabbe/Learning/react/pics/public",
+		"/Users/danielcrabbe/Learning/react/pics/src",
+		"/Users/danielcrabbe/Learning/react/pics/src/api",
+		"/Users/danielcrabbe/Learning/react/pics/src/components"
+	],
+	"file_history":
+	[
+		"/Users/danielcrabbe/Learning/react/pics/src/index.js",
+		"/Users/danielcrabbe/Learning/react/pics/src/components/ImageList.css",
+		"/Users/danielcrabbe/Learning/react/pics/src/api/unsplash.js",
+		"/Users/danielcrabbe/Learning/react/pics/node_modules/jsdom/lib/jsdom/living/generated/HTMLScriptElement.js",
+		"/Users/danielcrabbe/Learning/react/pics/public/index.html",
+		"/Users/danielcrabbe/Learning/react/jsx/src/App.test.js",
+		"/Users/danielcrabbe/Learning/react/jsx/src/App.js",
+		"/Users/danielcrabbe/Learning/react/jsx/src/App.css",
+		"/Users/danielcrabbe/Sites/test-with-hosting/docs/Gemfile.lock",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/vendor/campaignmonitor/createsend-php/csrest_subscribers.php",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/styles-cm-form.css",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/functions.php",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/page.php",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/loop-news.php",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/form-cm.php",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/style.css",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/functions-cm.php",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/_/js/functions.js",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/header.php",
+		"/Users/danielcrabbe/Sites/Tavistock/wp-content/themes/tavistock_2013/functions-woo.php",
+		"/Users/jynk/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/scripts/live-blogs.js",
+		"/Users/jynk/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/lib/live_blog.php",
+		"/Users/jynk/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/templates/content-single-blog-live.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/README.md",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/styles/common/_mixins.scss",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/scripts/live-blogs.js",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/templates/footer.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/templates/supporters.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/styles/layouts/_header.scss",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/styles/layouts/_header-grid.scss",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/templates/header.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/lib/setup.php",
+		"/Volumes/GARMIN/Garmin/Apps/LOGS/CIQ_LOG.YML",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/scripts/main.js",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/scripts/loading-content-ajax.js",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/scripts/wonkhe2web.js",
+		"/Users/danielcrabbe/Sites/pm-dashboard.com/pm-data-theme-testing.sublime-project",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/archive.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/styles/components/_nav.scss",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/lib/archives.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/templates/content-filters-menus.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/lib/live_blog.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/templates/content-live-blog-item.php",
+		"/Users/danielcrabbe/Projects/Sound Space Vision/website/ssv-wordpress-master/wp-content/themes/ssv-sage-85-theme/SSV theme sage 85.sublime-project",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/styles/common/_typography-wonkhe-events.scss",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/styles/components/_featured-message.scss",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/templates/content-single-blog-live.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/assets/styles/components/_we-cover.scss",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/templates/we-event-header.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/templates/content-featured_message.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/templates/content-single-wonkhe-events.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/functions.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/lib/acf.php",
+		"/Users/danielcrabbe/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/template-events.php",
+		"/Users/jynk/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/bower.json",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/.gitignore",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/main-journals.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/scripts/main.js",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/components/_navs.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/main.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/pf-journals-main.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/gulpfile.js",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower.json",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/common/_variables.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/manifest.json",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/dist/scripts/main.js",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/layouts/_footer.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/dist/styles/pf-journals-main.css",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/components/_nodes.scss",
+		"/Users/jynk/Desktop/pf-journals-main.css",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/components/_forms.scss",
+		"/Users/jynk/Desktop/pj-journals-main.css",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/pj-journals-main.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/footer.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/head.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/pages/ipr-new.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/components/_media.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/components/_buttons.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/layouts/_sections.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/dist/scripts/pf-main.js",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/common/_type-override.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/scss/_reboot.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/scss/_variables.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/dist/styles/main.css",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/layouts/_header.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/common/_type.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/package.json",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/scss/mixins/_buttons.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/layout.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/section-contact.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/scss/bootstrap.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/section-hero.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/section-intro.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/section-nodes.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/scss/_forms.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/scss/mixins/_reset-text.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/pages/index.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/components/ipr-new.html",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/nav-main.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/header.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/scss/_buttons.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/data.json",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/common/_global.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/pages/contact.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/node.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/scss/_dropdown.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/site/docs/4.1/assets/scss/_nav.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/scss/_functions.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/README.md",
+		"/Users/jynk/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/dist/index.html",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/nav-user.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/SVG/logo-ipr-journals.svg",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/bower_components/bootstrap/scss/_type.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/dist/scripts/myproject.min.js",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/common/_mixins.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/partials/section-nodes-authors.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/assets/styles/layouts/_pages.scss",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/templates/test.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/pages/test.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/src/pages/blockquotes.nj",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/package-old.json",
+		"/Users/jynk/Projects/Playfields/HFM/IPR/dev/pm-iprj/composer.json",
+		"/Users/jynk/Projects/Playfields/HFM/PMDS/pm-design-system-model/package.json",
+		"/Users/jynk/Projects/Playfields/HFM/PMDS/research elements 01/PM-component-examples/post-list/_post-list-typography.scss",
+		"/Users/jynk/Projects/Playfields/HFM/PMDS/research elements 01/PM-component-examples/post-list/_post-list-grid.scss",
+		"/Users/jynk/Projects/Playfields/HFM/PMDS/research elements 01/PM-component-examples/post-list/post-list-config.json",
+		"/Users/jynk/Projects/Playfields/HFM/PMDS/research elements 01/PM-component-examples/_config/comp-presets.json"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"onSubmit",
+			"description",
+			"-webkit",
+			"-moz-",
+			"#photos {",
+			"image-list",
+			"image.",
+			"event"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/components/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								826,
+								826
+							]
+						],
+						"settings":
+						{
+							"SL.30.region_keys":
+							[
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/ImageList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								550,
+								550
+							]
+						],
+						"settings":
+						{
+							"SL.64.region_keys":
+							[
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/components/ImageCard.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								71
+							]
+						],
+						"settings":
+						{
+							"SL.74.region_keys":
+							[
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "src/components/SearchBar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								325
+							]
+						],
+						"settings":
+						{
+							"SL.31.region_keys":
+							[
+							],
+							"SL.69.region_keys":
+							[
+							],
+							"auto_name": "SearchBar.js",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.paneltranformations":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "react lesson pics.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"src/index.js"
+			],
+			[
+				"-news",
+				"loop-news.php"
+			],
+			[
+				"pag",
+				"page.php"
+			],
+			[
+				"form-",
+				"form-cm.php"
+			],
+			[
+				"page",
+				"page.php"
+			],
+			[
+				"-cm",
+				"functions-cm.php"
+			],
+			[
+				"function",
+				"functions.php"
+			],
+			[
+				"styles",
+				"style.css"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"form",
+				"form-cm.php"
+			],
+			[
+				"funct",
+				"_/js/functions.js"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"signup",
+				"templates/content-signup-cm.php"
+			],
+			[
+				"live blog",
+				"lib/live_blog.php"
+			],
+			[
+				"live-blo",
+				"assets/scripts/live-blogs.js"
+			],
+			[
+				"_mixin",
+				"assets/styles/common/_mixins.scss"
+			],
+			[
+				"readm",
+				"README.md"
+			],
+			[
+				"wonkhe.js",
+				"assets/scripts/wonkhe2web.js"
+			],
+			[
+				"live",
+				"assets/scripts/live-blogs.js"
+			],
+			[
+				"filters",
+				"templates/content-filters-menus.php"
+			],
+			[
+				"foot",
+				"templates/footer.php"
+			],
+			[
+				"supp",
+				"templates/supporters.php"
+			],
+			[
+				"archive",
+				"archive.php"
+			],
+			[
+				"archi",
+				"lib/archives.php"
+			],
+			[
+				"header",
+				"templates/header.php"
+			],
+			[
+				"_header-",
+				"assets/styles/layouts/_header-grid.scss"
+			],
+			[
+				"_header",
+				"assets/styles/layouts/_header.scss"
+			],
+			[
+				"_nav",
+				"assets/styles/components/_nav.scss"
+			],
+			[
+				"-live",
+				"templates/content-live-blog-item.php"
+			],
+			[
+				"content-single-blog-live.php",
+				"templates/content-single-blog-live.php"
+			],
+			[
+				"_featu",
+				"assets/styles/components/_featured-message.scss"
+			],
+			[
+				"wonkhe even",
+				"templates/content-single-wonkhe-events.php"
+			],
+			[
+				"featured",
+				"templates/content-featured_message.php"
+			],
+			[
+				"event-header",
+				"templates/we-event-header.php"
+			],
+			[
+				"-event",
+				"template-events.php"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"footer",
+				"templates/footer.php"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				".ign",
+				".gitignore"
+			],
+			[
+				"manif",
+				"assets/manifest.json"
+			],
+			[
+				"main",
+				"assets/scripts/main.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"_no",
+				"assets/styles/components/_nodes.scss"
+			],
+			[
+				"_foot",
+				"assets/styles/layouts/_footer.scss"
+			],
+			[
+				"pf-",
+				"dist/styles/pf-journals-main.css"
+			],
+			[
+				"pf",
+				"dist/styles/pf-journals-main.css"
+			],
+			[
+				"pf-jou",
+				"dist/styles/pf-journals-main.css"
+			],
+			[
+				"_form",
+				"assets/styles/components/_forms.scss"
+			],
+			[
+				"_node",
+				"assets/styles/components/_nodes.scss"
+			],
+			[
+				"_variab",
+				"assets/styles/common/_variables.scss"
+			],
+			[
+				"_butt",
+				"assets/styles/components/_buttons.scss"
+			],
+			[
+				"_section",
+				"assets/styles/layouts/_sections.scss"
+			],
+			[
+				"_type-ov",
+				"assets/styles/common/_type-override.scss"
+			],
+			[
+				"_navs",
+				"assets/styles/components/_navs.scss"
+			],
+			[
+				"pf-main",
+				"dist/scripts/pf-main.js"
+			],
+			[
+				"_reboot",
+				"bower_components/bootstrap/scss/_reboot.scss"
+			],
+			[
+				"pf-j",
+				"dist/styles/pf-journals-main.css"
+			],
+			[
+				"_var",
+				"bower_components/bootstrap/scss/_variables.scss"
+			],
+			[
+				"_variable",
+				"assets/styles/common/_variables.scss"
+			],
+			[
+				"head.nj",
+				"src/templates/partials/head.nj"
+			],
+			[
+				"-new",
+				"src/pages/ipr-new.nj"
+			],
+			[
+				"_media",
+				"assets/styles/components/_media.scss"
+			],
+			[
+				"ipr",
+				"src/pages/ipr-new.nj"
+			],
+			[
+				"_se",
+				"assets/styles/layouts/_sections.scss"
+			],
+			[
+				"p",
+				"package.json"
+			],
+			[
+				"_type",
+				"assets/styles/common/_type-override.scss"
+			],
+			[
+				"_hea",
+				"assets/styles/layouts/_header.scss"
+			],
+			[
+				"ipr-new",
+				"src/pages/ipr-new.nj"
+			],
+			[
+				"reboo",
+				"bower_components/bootstrap/scss/_reboot.scss"
+			],
+			[
+				"bootstrap.scss",
+				"bower_components/bootstrap/scss/bootstrap.scss"
+			],
+			[
+				"_but",
+				"assets/styles/components/_buttons.scss"
+			],
+			[
+				"-hero",
+				"src/templates/partials/section-hero.nj"
+			],
+			[
+				"_sec",
+				"assets/styles/layouts/_sections.scss"
+			],
+			[
+				"layout",
+				"src/templates/layout.nj"
+			],
+			[
+				"_b",
+				"assets/styles/components/_buttons.scss"
+			],
+			[
+				"_reset",
+				"bower_components/bootstrap/scss/mixins/_reset-text.scss"
+			],
+			[
+				"_varia",
+				"bower_components/bootstrap/scss/_variables.scss"
+			],
+			[
+				"-node",
+				"src/templates/partials/section-nodes.nj"
+			],
+			[
+				"_typ",
+				"assets/styles/common/_type.scss"
+			],
+			[
+				"_sectio",
+				"assets/styles/layouts/_sections.scss"
+			],
+			[
+				"contact",
+				"src/templates/partials/section-contact.nj"
+			],
+			[
+				"_vari",
+				"assets/styles/common/_variables.scss"
+			],
+			[
+				"_va",
+				"assets/styles/common/_variables.scss"
+			],
+			[
+				"-main",
+				"src/templates/partials/nav-main.nj"
+			],
+			[
+				"_sect",
+				"assets/styles/layouts/_sections.scss"
+			],
+			[
+				"_ty",
+				"assets/styles/common/_type.scss"
+			],
+			[
+				"_for",
+				"assets/styles/components/_forms.scss"
+			],
+			[
+				"nodes",
+				"src/templates/partials/section-nodes.nj"
+			],
+			[
+				"node.nj",
+				"src/templates/partials/node.nj"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"data",
+				"data.json"
+			],
+			[
+				"nav",
+				"src/templates/partials/nav-main.nj"
+			],
+			[
+				"section-n",
+				"src/templates/partials/section-nodes.nj"
+			],
+			[
+				"-intro",
+				"src/templates/partials/section-intro.nj"
+			],
+			[
+				"-intr",
+				"src/templates/partials/section-intro.nj"
+			],
+			[
+				"index.n",
+				"src/pages/index.nj"
+			],
+			[
+				"_glob",
+				"assets/styles/common/_global.scss"
+			],
+			[
+				"_secio",
+				"assets/styles/layouts/_sections.scss"
+			],
+			[
+				"index",
+				"dist/index.html"
+			],
+			[
+				"_medi",
+				"assets/styles/components/_media.scss"
+			],
+			[
+				"_med",
+				"assets/styles/components/_media.scss"
+			],
+			[
+				"hero",
+				"src/templates/partials/section-hero.nj"
+			],
+			[
+				"_head",
+				"assets/styles/layouts/_header.scss"
+			],
+			[
+				"-nodes",
+				"src/templates/partials/section-nodes.nj"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"entry-meta",
+				"templates/entry-meta.php"
+			],
+			[
+				"single-",
+				"templates/content-single-project.php"
+			],
+			[
+				"-list",
+				"page-project-list.php"
+			],
+			[
+				"_grid",
+				"assets/styles/components/_grid.scss"
+			],
+			[
+				"_sev",
+				"assets/styles/layouts/_services.scss"
+			],
+			[
+				"_gri",
+				"assets/styles/components/_grid.scss"
+			],
+			[
+				"-menu",
+				"templates/contact-menu.php"
+			],
+			[
+				"-all",
+				"templates/content-page-projects-all.php"
+			],
+			[
+				"extr",
+				"lib/extras.php"
+			],
+			[
+				"_about",
+				"assets/styles/layouts/_about-us.scss"
+			],
+			[
+				"content-sing",
+				"templates/content-single.php"
+			],
+			[
+				"_ex",
+				"assets/styles/layouts/_explore.scss"
+			],
+			[
+				"single.",
+				"templates/content-single.php"
+			],
+			[
+				"content-proj",
+				"templates/content-project.php"
+			],
+			[
+				"single",
+				"templates/content-single-project.php"
+			],
+			[
+				"_font",
+				"wp-content/themes/ssv-sage-85-theme/assets/styles/common/_fonts.scss"
+			],
+			[
+				"grid",
+				"assets/styles/components/_grid.scss"
+			],
+			[
+				"goog",
+				"assets/styles/components/_google-map.scss"
+			],
+			[
+				"ass",
+				"lib/assets.php"
+			],
+			[
+				"extra",
+				"lib/extras.php"
+			],
+			[
+				"setup",
+				"lib/setup.php"
+			],
+			[
+				"config",
+				"node_modules/browser-sync/lib/config.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "ssv",
+		"selected_items":
+		[
+			[
+				"ssv",
+				"~/Projects/Sound Space Vision/website/ssv-wordpress-master/wp-content/themes/ssv-sage-85-theme/SSV theme sage 85.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/Projects/sublime-projects/IPR static.sublime-project"
+			],
+			[
+				"wonkhe2",
+				"~/Projects/630_Wonkhe/web/wonkheweb2/wp-content/themes/wonkhe2-theme/wonkhe2-theme.sublime-project"
+			],
+			[
+				"wonkhe",
+				"~/Projects/566_Penoyre & Prasad LLP/website/pandp-root/wp-content/themes/pandp-theme/wonkhe2 theme.sublime-workspace"
+			],
+			[
+				"wonkhe 2",
+				"~/Projects/566_Penoyre & Prasad LLP/website/pandp-root/wp-content/themes/pandp-theme/wonkhe2 theme.sublime-workspace"
+			],
+			[
+				"peno",
+				"~/Projects/566_Penoyre & Prasad LLP/website/wordpress/wp-content/themes/pap_02/penoyre prasad theme old.sublime-project"
+			],
+			[
+				"pen",
+				"~/Projects/566_Penoyre & Prasad LLP/website/wordpress/wp-content/themes/pap_02/penoyre prasad theme old.sublime-project"
+			],
+			[
+				"green",
+				"~/Projects/Greengage/web/greengageweb2016/wp-content/themes/greengage-sage/Greengage theme SAGE.sublime-project"
+			],
+			[
+				"greeng",
+				"~/Projects/Greengage/web/greengageweb2016/wp-content/themes/greengage-theme/greengage theme.sublime-workspace"
+			],
+			[
+				"gr",
+				"~/Projects/Greengage/web/greengageweb2016/Greengage WP root.sublime-project"
+			],
+			[
+				"am",
+				"~/Projects/612 AMPC/website/ampc-wordpress-master/ampc-theme.sublime-project"
+			],
+			[
+				"ampc",
+				"~/Projects/612 AMPC/website/ampc-wordpress-master/ampc.sublime-project"
+			],
+			[
+				"aba",
+				"~/Projects/419_ABA/abaweb/wp-content/themes/aba-master/aba-master.sublime-project"
+			],
+			[
+				"refor",
+				"~/Projects/634 Reform Architects/website/reform-website-master/reform.sublime-project"
+			],
+			[
+				"2",
+				"~/Projects/500_2AM/web/2amweb2014/wp-content/themes/2am-master/2am-master.sublime-project"
+			],
+			[
+				"2a",
+				"~/Projects/500_2AM/web/2amweb2014/wp-content/themes/2am-master/2am-master.sublime-project"
+			],
+			[
+				"fe",
+				"~/Projects/632 Feel Films/web/feelweb14/wp-content/themes/feel-roots-theme/feel-films.sublime-project"
+			],
+			[
+				"wo",
+				"~/Projects/630_Wonkhe/web/wonkheweb/wp-content/themes/wonkhe-roots-master/wonkhe-roots-master.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
