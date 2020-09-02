@@ -57,11 +57,11 @@ undefined
 {...profile, name:'alex'}
 {name: "alex"}
 {...profile, name:'alex',age :30}
-{name: "alex", age: 30}
+:{name: "alex", age: 30}
 {...profile,  age :30}
-{name: "sam", age: 30}
+:{name: "sam", age: 30}
 {name:'alex', ...profile}
-{name: "sam"}
+:{name: "sam"}
 
 
 // #remove
