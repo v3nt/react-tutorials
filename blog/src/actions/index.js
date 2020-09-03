@@ -1,3 +1,4 @@
+import _ from "lodash";
 import jsonPlaceholder from "../apis/jsonPlaceholder.js";
 
 // major refactoring of export and function within
@@ -8,13 +9,23 @@ export const fetchPosts = () => async (dispatch) => {
   dispatch({ type: "FETCH_POSTS", payload: response.data });
 };
 
-export const fetchUser = (id) => async (dispatch) => {
-  // const response = await jsonPlaceholder.get("/users/" + id);
+export const fetchUser = (id) => (dispatch) => {
+  _fetchUser(id, dispatch);
+};
 
-  // ES2015
+const _fetchUser = _.memoize(async (id, dispatch) => {
   const response = await jsonPlaceholder.get(`/users/${id}`);
   dispatch({ type: "FETCH_USER", payload: response.data });
-};
+});
+
+// example memoize : only allows to be called if a new or unique arg
+
+// export const fetchUser = function (id) {
+//   return _.memoize(async function (dispatch) {
+//     const response = await jsonPlaceholder.get(`/users/${id}`);
+//     dispatch({ type: "FETCH_USER", payload: response.data });
+//   });
+// };
 
 //
 //

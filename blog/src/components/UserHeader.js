@@ -8,7 +8,10 @@ class UserHeader extends React.Component {
   }
   render() {
     // console.log(this.props.userId);
-    const user = this.props.users.find((user) => user.id === this.props.userId);
+    // replaced below due to `ownProps`
+    // const user = this.props.users.find((user) => user.id === this.props.userId);
+
+    const { user } = this.props;
 
     if (!user) {
       return null;
@@ -22,11 +25,23 @@ class UserHeader extends React.Component {
   }
 }
 
-// extact this so comp is re-usable
-// ownProps = get props from class above.
+// extact this so UserHeader comp is re-usable
 
-const mapStateToProps = (state) => {
-  return { users: state.users };
+// ownProps = get props from class above.
+const mapStateToProps = (state, ownProps) => {
+  return { user: state.users.find((user) => user.id === ownProps.userId) };
 };
 
 export default connect(mapStateToProps, { fetchUser })(UserHeader);
+
+// testing on loDash.com
+
+// function getUser(id) {
+//   fetch(id);
+//   return "made a request:" + id;
+// }
+
+// getUser(2);
+
+// const memoizedGetUser = _.memoize(getUser);
+// memoizedGetUser(3);
