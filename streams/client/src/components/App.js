@@ -1,5 +1,4 @@
 import React from "react";
-
 import { BrowserRouter, Route } from "react-router-dom";
 
 const PageOne = () => {
@@ -18,8 +17,9 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
+        {/*can have multiple for eacch URL*/}
         <Route path="/" exact component={PageOne} />
-        <Route path="/pagetwo" exact component={PageTwo} />
+        <Route path="/pagetwo" component={PageTwo} />
       </BrowserRouter>
     </div>
   );
