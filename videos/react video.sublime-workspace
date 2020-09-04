@@ -504,15 +504,6 @@
 			}
 		},
 		{
-			"file": "src/components/SearchBar.js",
-			"settings":
-			{
-				"buffer_size": 1015,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/index.js",
 			"settings":
 			{
@@ -754,8 +745,8 @@
 	],
 	"file_history":
 	[
-		"/Users/danielcrabbe/Learning/react/videos/public/index.html",
 		"/Users/danielcrabbe/Learning/react/videos/src/components/SearchBar.js",
+		"/Users/danielcrabbe/Learning/react/videos/public/index.html",
 		"/Users/danielcrabbe/Learning/react/videos/src/apis/youtube.js",
 		"/Users/danielcrabbe/Learning/react/videos/src/components/VideoItem.css",
 		"/Users/danielcrabbe/Learning/react/videos/src/api/youtube.js",
@@ -920,7 +911,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1049,41 +1040,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/components/SearchBar.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1015,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								137,
-								137
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "src/index.js",
 					"semi_transient": false,
 					"settings":
@@ -1110,7 +1071,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
