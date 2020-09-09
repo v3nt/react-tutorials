@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"sign",
+				"signOut"
+			],
+			[
+				"rcc",
+				"rcc\tReact: legacy component"
+			],
+			[
 				"fet",
 				"fetchPosts"
 			],
@@ -431,6 +439,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/GoogleAuth.js",
+			"settings":
+			{
+				"buffer_size": 1816,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/reducers/authReducer.js",
+			"settings":
+			{
+				"buffer_size": 327,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/reducers/index.js",
+			"settings":
+			{
+				"buffer_size": 141,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamList.js",
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -443,6 +486,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
 			[
 				"close",
 				"File: Close All"
@@ -518,10 +569,6 @@
 			[
 				"blade",
 				"Set Syntax: Laravel Blade"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"forma",
@@ -696,10 +743,24 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/danielcrabbe/Learning/react/streams/client"
+		"/Users/danielcrabbe/Learning/react/streams/client",
+		"/Users/danielcrabbe/Learning/react/streams/client/src",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/actions"
 	],
 	"file_history":
 	[
+		"/Users/danielcrabbe/Learning/react/streams/client/src/index.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/actions/index.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/public/index.html",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/header.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/App.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/Client-Id.txt",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamShow.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamList.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamDelete.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamEdit.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamCreate.js",
+		"/Users/danielcrabbe/Library/Application Support/Sublime Text 3/Packages/User/react-comp-class-snippet",
 		"/Users/danielcrabbe/Learning/react/blog/src/reducers/postsReducer.js",
 		"/Users/danielcrabbe/Learning/react/blog/src/components/App.js",
 		"/Users/danielcrabbe/Learning/react/blog/src/apis/jsonPlaceholder.js",
@@ -815,19 +876,7 @@
 		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/.gitignore",
 		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/styles/autoload/_bootstrap.scss",
 		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/.prettierrc",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/sitesearchform.blade.php",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/CHANGELOG.md",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/scripts/customizer.js",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/config/theme.php",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/config/view.php",
-		"/Users/danielcrabbe/Learning/react/songs/src/components/SongList.js",
-		"/Users/danielcrabbe/Learning/react/songs/public/index.html",
-		"/Users/danielcrabbe/Projects/SD engineers/website/sd-structures-website/sitecontent/wp-content/themes/sd-theme-2018/template-profile.php",
-		"/Users/danielcrabbe/Projects/SD engineers/website/sd-structures-website/sitecontent/wp-content/themes/sd-theme-2018/templates/sd-whole-logo.svg.php",
-		"/Users/danielcrabbe/Projects/630_Wonkhe/wonkfest/wonkfest2018/wonkfest root 2018.sublime-project",
-		"/Users/danielcrabbe/Projects/SD engineers/website/sd-structures-website/sitecontent/wp-content/themes/sd-theme-2018/assets/images/SVG/sd-whole-logo.svg",
-		"/Users/danielcrabbe/Projects/SD engineers/website/sd-structures-website/sitecontent/wp-content/themes/sd-theme-2018/dist/images/SVG/sd-whole-logo.svg",
-		"/Users/danielcrabbe/Projects/SD engineers/website/sd-structures-website/sitecontent/wp-content/themes/sd-theme-2018/assets/styles/layouts/_profile.scss"
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/sitesearchform.blade.php"
 	],
 	"find":
 	{
@@ -845,6 +894,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mapStateToProps",
+			"state",
+			"div",
+			"GoogleAuth",
+			"edit",
+			"delete",
+			"stream/",
+			"stream",
+			"Stream",
+			"stream",
+			"Stream",
+			"stream",
+			"Stream",
+			"stream",
+			"Stream",
+			"List",
+			"Delete",
+			"Create",
+			"StreamList",
+			"StreamCreate"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -862,13 +931,127 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/GoogleAuth.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/reducers/authReducer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								259
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/reducers/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 3,
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -878,7 +1061,7 @@
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 39.0
 	},
 	"layout":
 	{
@@ -900,7 +1083,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.475106653057,
 			1.0
 		],
 		"rows":
@@ -935,6 +1118,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index",
+				"public/index.html"
+			],
 			[
 				"app",
 				"src/components/App.js"
@@ -1196,10 +1383,6 @@
 				"resources/views/template-taxonomies.blade.php"
 			],
 			[
-				"index",
-				"resources/views/index.blade.php"
-			],
-			[
 				"_",
 				"resources/assets/scripts/autoload/_galleryLocations.js"
 			],
@@ -1457,6 +1640,10 @@
 		"selected_items":
 		[
 			[
+				"",
+				"~/Projects/Sound Space Vision/website/ssv-wordpress-master/Sound Space Vision root.sublime-project"
+			],
+			[
 				"song",
 				"~/Learning/react/songs/react redux songs.sublime-project"
 			],
@@ -1523,10 +1710,6 @@
 			[
 				"wo",
 				"~/Projects/630_Wonkhe/web/wonkheweb/wp-content/themes/wonkhe-roots-master/wonkhe-roots-master.sublime-workspace"
-			],
-			[
-				"",
-				"~/Projects/632 Feel Films/web/feelweb14/wp-content/themes/feel-roots-theme/feel theme.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1540,15 +1723,15 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 208.0,
+	"side_bar_visible": false,
+	"side_bar_width": 252.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{
