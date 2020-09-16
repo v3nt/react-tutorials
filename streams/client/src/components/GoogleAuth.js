@@ -22,7 +22,7 @@ class GoogleAuth extends React.Component {
   onAuthChange = (isSignedIn) => {
     // arrow funciton means this F is bound to this comp
     if (isSignedIn) {
-      this.props.signIn();
+      this.props.signIn(this.auth.currentUser.get().getId());
     } else {
       this.props.signOut();
     }
@@ -30,7 +30,8 @@ class GoogleAuth extends React.Component {
 
   onSignInClick = () => {
     this.auth.signIn();
-    // console.log(this.auth.currentUser.get().getBasicProfile().getEmail());
+    /// you cannfind this using console on the browser!
+    console.log(this.auth.currentUser.get().getId());
   };
 
   onSignOutClick = () => {
