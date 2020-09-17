@@ -1,7 +1,7 @@
 // sample
 
 // array
-const streamReducer = (state = [], action) => {
+const streamReducerArr = (state = [], action) => {
   switch (action.type) {
     case EDIT_STREAM:
       return state.map((stream) => {
@@ -15,4 +15,21 @@ const streamReducer = (state = [], action) => {
       return state;
   }
 };
-// OBJECT!
+
+// OBJECT! Easier
+const streamReducerObj = (state = {}, action) => {
+  switch (action.type) {
+    case EDIT_STREAM:
+      // still not ery concise
+      const newState = { ...state }; // return new OBJ from reducer
+      newState[action.payload.id] = action.payload;
+      return newState;
+      //
+      // WOW. single line version!
+      // [] not an array here but key interpolation
+      return { ...state, [action.payload.id]: action.payload };
+    //
+    default:
+      return state;
+  }
+};
