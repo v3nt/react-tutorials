@@ -9,6 +9,31 @@
       "title": "a",
       "description": "b",
       "id": 2
+    },
+    {
+      "title": "other stream",
+      "description": "and another stream!",
+      "id": 3
+    },
+    {
+      "title": "other stream",
+      "description": "and another stream!",
+      "id": 4
+    },
+    {
+      "title": "other stream",
+      "description": "and another stream!",
+      "id": 5
+    },
+    {
+      "title": "other stream",
+      "description": "and another stream!",
+      "id": 6
+    },
+    {
+      "title": "a",
+      "description": "a",
+      "id": 7
     }
   ]
 }
