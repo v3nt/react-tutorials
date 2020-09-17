@@ -25,7 +25,7 @@ class StreamCreate extends React.Component {
     // jsx shorthand for forms, {input} is from formProps.input
     const className = `field ${meta.error && meta.touched ? "error" : ""}`;
     return (
-      <div className="field">
+      <div className={className}>
         <label>{label}</label>
         <input {...input} autoComplete="off" />
         {this.renderError(meta)}
@@ -50,9 +50,6 @@ class StreamCreate extends React.Component {
           component={this.renderInput}
           label="Enter description"
         />
-
-        <Field name="test" component={this.renderInput} label="Enter test" />
-
         <button className="ui button primary">Submit</button>
       </form>
     );
