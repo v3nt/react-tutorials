@@ -17,12 +17,13 @@ class StreamCreate extends React.Component {
       );
     }
   }
-
-  renderInput({ input, label, meta }) {
+  // arrow function solves 'this' error issue, TypeError: Cannot read property 'renderError' of undefined
+  renderInput = ({ input, label, meta }) => {
     // console.log(input);
     console.log(meta);
     // meta hold error object
     // jsx shorthand for forms, {input} is from formProps.input
+    const className = `field ${meta.error && meta.touched ? "error" : ""}`;
     return (
       <div className="field">
         <label>{label}</label>
@@ -30,7 +31,7 @@ class StreamCreate extends React.Component {
         {this.renderError(meta)}
       </div>
     );
-  }
+  };
 
   onSubmit(formValues) {
     // console.log(formValues);
@@ -41,7 +42,7 @@ class StreamCreate extends React.Component {
     return (
       <form
         onSubmit={this.props.handleSubmit(this.onSubmit)}
-        className="ui form"
+        className="ui form error"
       >
         <Field name="title" component={this.renderInput} label="Enter title" />
         <Field
@@ -49,6 +50,9 @@ class StreamCreate extends React.Component {
           component={this.renderInput}
           label="Enter description"
         />
+
+        <Field name="test" component={this.renderInput} label="Enter test" />
+
         <button className="ui button primary">Submit</button>
       </form>
     );
