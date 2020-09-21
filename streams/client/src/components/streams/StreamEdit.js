@@ -1,6 +1,8 @@
 import React from "react";
 
-const StreamEdit = () => {
+const StreamEdit = (props) => {
+  console.log(props);
+  console.log(props.match.params.id);
   return <div>StreamEdit</div>;
 };
 

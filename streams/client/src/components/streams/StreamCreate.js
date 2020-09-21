@@ -22,7 +22,7 @@ class StreamCreate extends React.Component {
   // arrow function solves 'this' error issue, TypeError: Cannot read property 'renderError' of undefined
   renderInput = ({ input, label, meta }) => {
     // console.log(input);
-    console.log(meta);
+    // console.log(meta);
     // meta hold error object
     // jsx shorthand for forms, {input} is from formProps.input
     const className = `field ${meta.error && meta.touched ? "error" : ""}`;
