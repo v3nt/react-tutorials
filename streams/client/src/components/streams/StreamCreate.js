@@ -75,7 +75,7 @@ const validate = (formValues) => {
   return errors;
 };
 
-// returns a function that is immediately calle with (StreamCreate)
+// returns a function that is immediately called with (StreamCreate)
 
 // how to wire up redux form and connect ?
 // export default reduxForm({
