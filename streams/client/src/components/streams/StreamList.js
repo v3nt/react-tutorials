@@ -56,12 +56,13 @@ class StreamList extends React.Component {
 }
 const mapStateToProps = (state) => {
   //map over stream
+  // Object turns into array
+
   return {
     streams: Object.values(state.streams),
     currentUserId: state.auth.userId,
     isSignedIn: state.auth.isSignedIn,
   };
-  // Object turns into array
 };
 
 export default connect(mapStateToProps, { fetchStreams })(StreamList);
