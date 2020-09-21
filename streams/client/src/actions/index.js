@@ -53,8 +53,11 @@ export const deleteStream = (id) => async (dispatch) => {
 };
 
 export const editStream = (id, formValues) => async (dispatch) => {
-  const response = await streams.put(`/streams/${id}`, formValues);
+  const response = await streams.patch(`/streams/${id}`, formValues);
+  // put replaces everything to '' if all values aren't set. Use PATCH to just update the posted roperties
   dispatch({ type: EDIT_STREAM, payload: response.data });
+
+  history.push("/");
 };
 export const updateStream = (id) => async (dispatch) => {
   const response = await streams.post(`/streams/${id}`);

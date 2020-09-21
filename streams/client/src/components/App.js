@@ -6,6 +6,7 @@ import StreamDelete from "./streams/StreamDelete";
 import StreamEdit from "./streams/StreamEdit";
 import StreamList from "./streams/StreamList";
 import StreamShow from "./streams/StreamShow";
+// for redirection.
 import history from "../history";
 
 // other comps
