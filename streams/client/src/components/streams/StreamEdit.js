@@ -1,7 +1,8 @@
+import _ from "lodash"; // for rm unwantrd items from stream obj
 import React from "react";
-
 import { connect } from "react-redux";
-import { fetchStream } from "../../actions";
+import { fetchStream, editStream } from "../../actions";
+import StreamForm from "./StreamForm";
 
 class StreamEdit extends React.Component {
   // with class needs 'this' for props and fncs inside classs
@@ -9,6 +10,13 @@ class StreamEdit extends React.Component {
     // this populates id on init
     this.props.fetchStream(this.props.match.params.id);
   }
+
+  onSubmit = (formValues) => {
+    // console.log(formValues);
+    // event.preventDefault(); // not needed with redux-form
+    this.props.editStream(this.props.match.params.id, formValues);
+  };
+
   render() {
     console.log(this.props);
     // console.log(props.match.params.id);
@@ -22,7 +30,12 @@ class StreamEdit extends React.Component {
       return (
         <div>
           <h1>StreamEdit</h1>
-          <p>{this.props.stream.title}</p>
+          <h4>{this.props.stream.title}</h4>
+          {/*// this.props.stream passes everything or all values */}
+          <StreamForm
+            initialValues={_.pick(this.props.stream, "title", "description")}
+            onSubmit={this.onSubmit}
+          ></StreamForm>
         </div>
       );
     }
@@ -37,4 +50,6 @@ const mapStateToProps = (state, ownProps) => {
   return { stream: state.streams[ownProps.match.params.id] };
 };
 
-export default connect(mapStateToProps, { fetchStream })(StreamEdit);
+export default connect(mapStateToProps, { fetchStream, editStream })(
+  StreamEdit
+);
