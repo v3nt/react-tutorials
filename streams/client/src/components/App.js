@@ -20,7 +20,7 @@ const App = () => {
           <Header />
           <Route path="/" exact component={StreamList} />
           <Route path="/streams/new" exact component={StreamCreate} />
-          <Route path="/streams/delete" exact component={StreamDelete} />
+          <Route path="/streams/delete/:id" exact component={StreamDelete} />
           <Route path="/streams/edit/:id" exact component={StreamEdit} />
           {/*this add id to props.mratch.params. /streams/edit/:id/:other */}
           <Route path="/streams/Show" exact component={StreamShow} />

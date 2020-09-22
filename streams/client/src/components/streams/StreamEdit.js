@@ -18,7 +18,7 @@ class StreamEdit extends React.Component {
   };
 
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     // console.log(props.match.params.id);
     if (!this.props.stream) {
       return (
