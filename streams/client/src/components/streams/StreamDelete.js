@@ -2,7 +2,8 @@ import React from "react";
 import Modal from "../Modal";
 import history from "../../history";
 import { connect } from "react-redux";
-import { fetchStream } from "../../actions";
+import { fetchStream, deleteStream } from "../../actions";
+import { Link } from "react-router-dom";
 
 class StreamDelete extends React.Component {
   // with class needs 'this' for props and fncs inside classs
@@ -14,14 +15,20 @@ class StreamDelete extends React.Component {
 
   // this root div causes style issues (always jsz needs a root div). Fragemnt ( <> abc </> helps here
   renderActions() {
+    // const id = this.props.match.params.id; // es2016 version below.
+    const { id } = this.props.match.params;
+
     return (
       <React.Fragment>
-        <button onClick={console.log(2)} className="ui button negative">
+        <button
+          onClick={() => this.props.deleteStream(id)}
+          className="ui button negative"
+        >
           Delete
         </button>
-        <button onClick={console.log(2)} className="ui button ">
-          cancel
-        </button>
+        <Link to="/" className="ui button">
+          Cancel
+        </Link>
       </React.Fragment>
     );
   }
@@ -38,8 +45,8 @@ class StreamDelete extends React.Component {
     return (
       <div>
         <Modal
-          title={this.renderContent()}
-          content="Are you sure sure ???"
+          title="Delete stream"
+          content={this.renderContent()}
           actions={this.renderActions()}
           onDismiss={() => history.push("/")}
         />
@@ -49,14 +56,16 @@ class StreamDelete extends React.Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
-  console.log(ownProps.match);
+  // console.log(ownProps.match);
   // state.streams, all steams, [] = for own props that match .id!!!
   return { stream: state.streams[ownProps.match.params.id] };
 };
 
 // export default StreamDelete;
 
-export default connect(mapStateToProps, { fetchStream })(StreamDelete);
+export default connect(mapStateToProps, { fetchStream, deleteStream })(
+  StreamDelete
+);
 
 //      actions={this.renderActions()}
 //      this wiil call it! Without () it will pass the funciton as a prop.
