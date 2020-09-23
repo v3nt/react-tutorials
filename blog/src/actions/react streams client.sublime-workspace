@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"Stream",
+				"StreamDelete"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"strem",
+				"streamForm"
+			],
+			[
 				"SIGN",
 				"SIGN_OUT"
 			],
@@ -92,14 +116,6 @@
 				"Component"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
-				"mar",
-				"margin-left"
-			],
-			[
 				"fig",
 				"figcaption\tTag"
 			],
@@ -132,10 +148,6 @@
 				"font-size"
 			],
 			[
-				"marg",
-				"margin"
-			],
-			[
 				"make",
 				"make-sm-column"
 			],
@@ -146,10 +158,6 @@
 			[
 				"in",
 				"inline"
-			],
-			[
-				"back",
-				"background-position"
 			],
 			[
 				"border",
@@ -444,29 +452,19 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/reducers/index.js",
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamDelete.js",
 			"settings":
 			{
-				"buffer_size": 141,
+				"buffer_size": 1957,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/reducers/authReducer.js",
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamCreate.js",
 			"settings":
 			{
-				"buffer_size": 378,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/actions/types.js",
-			"settings":
-			{
-				"buffer_size": 142,
-				"encoding": "UTF-8",
+				"buffer_size": 1341,
 				"line_ending": "Unix"
 			}
 		},
@@ -474,7 +472,43 @@
 			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamList.js",
 			"settings":
 			{
-				"buffer_size": 118,
+				"buffer_size": 1900,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/.gitignore",
+			"settings":
+			{
+				"buffer_size": 310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/Modal.js",
+			"settings":
+			{
+				"buffer_size": 673,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamEdit.js",
+			"settings":
+			{
+				"buffer_size": 1630,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/App.js",
+			"settings":
+			{
+				"buffer_size": 1073,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -482,7 +516,7 @@
 			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/actions/index.js",
 			"settings":
 			{
-				"buffer_size": 184,
+				"buffer_size": 1871,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -499,6 +533,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"todo",
+				"Set Syntax: Git Rebase Todo"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -664,10 +714,6 @@
 				"Terminal: Open in project folder"
 			],
 			[
-				"rename",
-				"Rename File"
-			],
-			[
 				"pack",
 				"Package Control: Remove Package"
 			],
@@ -706,10 +752,6 @@
 			[
 				"inden",
 				"Indentation: Reindent Lines"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
 			],
 			[
 				"encode",
@@ -758,22 +800,33 @@
 	[
 		"/Users/danielcrabbe/Learning/react/streams/client",
 		"/Users/danielcrabbe/Learning/react/streams/client/src",
-		"/Users/danielcrabbe/Learning/react/streams/client/src/actions"
+		"/Users/danielcrabbe/Learning/react/streams/client/src/actions",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components"
 	],
 	"file_history":
 	[
-		"/Users/danielcrabbe/Learning/react/streams/client/src/components/GoogleAuth.js",
-		"/Users/danielcrabbe/Learning/react/streams/client/src/index.js",
-		"/Users/danielcrabbe/Learning/react/streams/client/src/actions/index.js",
 		"/Users/danielcrabbe/Learning/react/streams/client/public/index.html",
-		"/Users/danielcrabbe/Learning/react/streams/client/src/components/header.js",
-		"/Users/danielcrabbe/Learning/react/streams/client/src/components/App.js",
-		"/Users/danielcrabbe/Learning/react/streams/client/Client-Id.txt",
-		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamShow.js",
-		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamList.js",
-		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamDelete.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/public/modal.html",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamForm.js",
 		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamEdit.js",
 		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamCreate.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/App.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamDelete.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/actions/index.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/history.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/actions/types.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/index.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/reducers/streamReducer.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/header.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/GoogleAuth.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/reducers/index.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/package.json",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/reducers/samplecode.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/apis/streams.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamList.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/reducers/authReducer.js",
+		"/Users/danielcrabbe/Learning/react/streams/client/Client-Id.txt",
+		"/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamShow.js",
 		"/Users/danielcrabbe/Library/Application Support/Sublime Text 3/Packages/User/react-comp-class-snippet",
 		"/Users/danielcrabbe/Learning/react/blog/src/reducers/postsReducer.js",
 		"/Users/danielcrabbe/Learning/react/blog/src/components/App.js",
@@ -879,17 +932,7 @@
 		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/.npmrc",
 		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/build/webpack.staging.js",
 		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/build/postcss.config.js",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/content-search.blade.php",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/app/debugging.php",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/app/Controllers/FrontPage.php",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/vendor/brain/hierarchy/src/QueryTemplate.php",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/vendor/brain/hierarchy/src/Hierarchy.php",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/comments.blade.php",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/template-custom.blade.php",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/config/assets.php",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/.gitignore",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/assets/styles/autoload/_bootstrap.scss",
-		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/.prettierrc"
+		"/Users/danielcrabbe/Sites/foundlocations.co.uk/wp-content/themes/found-theme/resources/views/partials/content-search.blade.php"
 	],
 	"find":
 	{
@@ -900,6 +943,7 @@
 		"height": 107.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -907,6 +951,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"div",
+			"userid",
+			"editStream",
+			"creat",
+			"crea\\",
+			"p>",
+			"p",
+			"console",
+			"p",
+			"StreamCreate",
+			"fetchStreams",
+			"fetchStream",
+			"currentUserId",
+			"connect",
+			"StreamEdit",
+			"mapStateToProps",
+			"BrowserRouter",
+			"a",
+			"createStream",
+			"\"/streams/:id\"",
+			"\"/streams/delete/:id\"",
+			"FETCH",
+			"fetch",
+			" = ",
+			"UPDATE_",
+			"DELETE",
+			"MS",
+			"CREATE",
+			"description",
+			"eroor",
+			"title",
+			"formvalues",
+			"fieldProps",
+			"reducer",
 			"\"",
 			"SIGN_IN",
 			"mapStateToProps",
@@ -946,24 +1024,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/reducers/index.js",
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamDelete.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 141,
+						"buffer_size": 1957,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								141,
-								141
+								892,
+								892
 							]
 						],
 						"settings":
@@ -974,30 +1052,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/reducers/authReducer.js",
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamCreate.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 378,
+						"buffer_size": 1341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								316,
-								316
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1010,24 +1082,86 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/actions/types.js",
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamList.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 142,
+						"buffer_size": 1900,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								140,
-								140
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Theme - Seti Monokai/icons/Langs/Git.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/Modal.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 673,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								398,
+								398
 							]
 						],
 						"settings":
@@ -1042,20 +1176,80 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamList.js",
+					"buffer": 5,
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamEdit.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 118,
+						"buffer_size": 1630,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								440,
+								440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								406
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/components/streams/StreamList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
 							]
 						],
 						"settings":
@@ -1066,41 +1260,31 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/actions/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 184,
+						"buffer_size": 1871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								96,
-								96
-							],
-							[
-								103,
-								103
-							],
-							[
-								166,
-								166
-							],
-							[
-								174,
-								174
+								483,
+								483
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1140,7 +1324,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.491529944573,
 			1.0
 		],
 		"rows":
@@ -1176,12 +1360,64 @@
 		"selected_items":
 		[
 			[
-				"index",
-				"src/actions/index.js"
+				"git",
+				".gitignore"
+			],
+			[
+				"streamC",
+				"src/components/streams/StreamCreate.js"
+			],
+			[
+				"streamli",
+				"src/components/streams/StreamList.js"
 			],
 			[
 				"app",
 				"src/components/App.js"
+			],
+			[
+				"streamed",
+				"src/components/streams/StreamEdit.js"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"streamde",
+				"src/components/streams/StreamDelete.js"
+			],
+			[
+				"stream",
+				"src/components/streams/StreamDelete.js"
+			],
+			[
+				"create",
+				"src/components/streams/StreamCreate.js"
+			],
+			[
+				"inde",
+				"src/index.js"
+			],
+			[
+				"google",
+				"src/components/GoogleAuth.js"
+			],
+			[
+				"head",
+				"src/components/header.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"ty",
+				"src/actions/types.js"
+			],
+			[
+				"auth",
+				"src/components/GoogleAuth.js"
 			],
 			[
 				"post",
@@ -1340,10 +1576,6 @@
 				"resources/views/partials/searchform.blade.php"
 			],
 			[
-				"pack",
-				"package.json"
-			],
-			[
 				"stylelintrc",
 				".stylelintrc.js"
 			],
@@ -1362,10 +1594,6 @@
 			[
 				"header",
 				"resources/views/partials/header.blade.php"
-			],
-			[
-				"head",
-				"resources/views/partials/head.blade.php"
 			],
 			[
 				"foot",
@@ -1642,50 +1870,6 @@
 			[
 				"test",
 				"resources/views/template-search-testing.blade.php"
-			],
-			[
-				"entry-met",
-				"resources/views/partials/entry-meta.blade.php"
-			],
-			[
-				"main.",
-				"resources/assets/styles/main.scss"
-			],
-			[
-				"_main",
-				"vendor/symfony/console/Tests/Fixtures/input_argument_with_default_inf_value.json"
-			],
-			[
-				"entr",
-				"resources/views/partials/entry-meta-location.blade.php"
-			],
-			[
-				"single-",
-				"resources/views/partials/content-single-location.blade.php"
-			],
-			[
-				"posts",
-				"vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Commenting/PostStatementCommentSniff.php"
-			],
-			[
-				"main.scs",
-				"resources/assets/styles/main.scss"
-			],
-			[
-				"location_typ",
-				"resources/views/taxonomy-location_type.blade.php"
-			],
-			[
-				"cnotent-lo",
-				"resources/views/partials/content-location.blade.php"
-			],
-			[
-				"contetn",
-				"resources/views/partials/content-location.blade.php"
-			],
-			[
-				"tag-item",
-				"resources/views/partials/tag-item.blade.php"
 			]
 		],
 		"width": 0.0
