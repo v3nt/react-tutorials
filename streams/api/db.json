@@ -4,14 +4,12 @@
       "title": "aa",
       "description": "aa11111",
       "userId": "105806126860293947308",
-
       "id": 9
     },
     {
       "title": "unexpected beahviour 2",
       "description": "didn't expect that! 222",
       "userId": "105806126860293947308",
-
       "id": 11
     },
     {
@@ -25,6 +23,12 @@
       "description": "desc to del",
       "userId": "105806126860293947308",
       "id": 15
+    },
+    {
+      "title": "My first new stream!",
+      "description": "Willit work?",
+      "userId": "105806126860293947308",
+      "id": 16
     }
   ]
 }
