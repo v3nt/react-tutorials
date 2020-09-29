@@ -447,7 +447,7 @@
 			"file": "db.json",
 			"settings":
 			{
-				"buffer_size": 559,
+				"buffer_size": 701,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -909,15 +909,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 559,
+						"buffer_size": 701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								412,
-								412
+								559,
+								558
 							]
 						],
 						"settings":

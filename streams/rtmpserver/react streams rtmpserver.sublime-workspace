@@ -462,11 +462,13 @@
 			}
 		},
 		{
+			"contents": "{\n  \"name\": \"rtmpserver\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"start\": \"node index.js\"\n  },\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"node-media-server\": \"^2.2.3\"\n  }\n}\n ",
 			"file": "package.json",
+			"file_size": 236,
+			"file_write_time": 132453332558791471,
 			"settings":
 			{
-				"buffer_size": 236,
-				"encoding": "UTF-8",
+				"buffer_size": 237,
 				"line_ending": "Unix"
 			}
 		}
@@ -957,15 +959,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 236,
+						"buffer_size": 237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								133,
-								133
+								237,
+								237
 							]
 						],
 						"settings":
