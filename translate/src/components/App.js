@@ -8,7 +8,7 @@ class App extends React.Component {
     // this.setState({ language: language });
     // if key and value the same...
     this.setState({ language });
-    console.log(language);
+    // console.log(language);
   };
 
   render() {
