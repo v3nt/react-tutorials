@@ -1,10 +1,13 @@
 import React from "react";
+import UserCreate from "./UserCreate";
 
 class App extends React.Component {
   state = { language: "english" };
 
   onLanguageChange = (language) => {
-    this.setState({ language: language });
+    // this.setState({ language: language });
+    // if key and value the same...
+    this.setState({ language });
     console.log(language);
   };
 
@@ -24,6 +27,9 @@ class App extends React.Component {
           ></i>
         </div>
         {this.state.language}
+        <div>
+          <UserCreate />
+        </div>
       </div>
     );
   }
