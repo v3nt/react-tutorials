@@ -28,9 +28,14 @@ class App extends React.Component {
           ></i>
         </div>
         <div>
+          {/*top one is using state set context rest are examples*/}
           <LanguageContext.Provider value={this.state.language}>
             <UserCreate />
           </LanguageContext.Provider>
+          <LanguageContext.Provider value="dutch">
+            <UserCreate />
+          </LanguageContext.Provider>
+          <UserCreate />
         </div>
       </div>
     );

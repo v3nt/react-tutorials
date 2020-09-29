@@ -5,8 +5,10 @@ import Button from "./Button";
 const userCreate = () => {
   return (
     <div className="ui form">
-      <Field></Field>
-      <Button></Button>
+      <form>
+        <Field></Field>
+        <Button></Button>
+      </form>
     </div>
   );
 };
