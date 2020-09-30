@@ -15,7 +15,7 @@ class App extends React.Component {
     return (
       <div className="ui container">
         <h1>APP</h1>
-        <LanguageSelector onLanguageChange={this.onLanguageChange()} />
+        <LanguageSelector onLanguageChange={() => this.onLanguageChange} />
         <div>
           <LanguageContext.Provider value={this.state.language}>
             <ColorContext.Provider value="yellow">
