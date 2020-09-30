@@ -478,6 +478,14 @@
 			}
 		},
 		{
+			"file": "/Users/danielcrabbe/Learning/react/streams/client/public/index.html",
+			"settings":
+			{
+				"buffer_size": 2082,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/Users/danielcrabbe/Learning/react/streams/client/src/actions/index.js",
 			"settings":
 			{
@@ -901,7 +909,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -1022,7 +1030,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1044,19 +1052,21 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1072,8 +1082,8 @@
 						"selection":
 						[
 							[
-								771,
-								771
+								496,
+								496
 							]
 						],
 						"settings":
@@ -1086,11 +1096,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "/Users/danielcrabbe/Learning/react/streams/client/public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "/Users/danielcrabbe/Learning/react/streams/client/src/actions/index.js",
 					"semi_transient": false,
 					"settings":
@@ -1116,7 +1156,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1124,7 +1164,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -1176,7 +1216,7 @@
 	"project": "react streams client.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1185,6 +1225,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index.html",
+				"public/index.html"
+			],
 			[
 				"streamD",
 				"src/components/streams/StreamDelete.js"
@@ -1692,10 +1736,6 @@
 			[
 				"func",
 				"resources/functions.php"
-			],
-			[
-				"previ",
-				"resources/views/partials/search-preview.blade.php"
 			]
 		],
 		"width": 0.0
@@ -1703,9 +1743,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "react",
 		"selected_items":
 		[
+			[
+				"react",
+				"~/Learning/react/pics/react lesson pics.sublime-project"
+			],
 			[
 				"",
 				"~/Projects/Sound Space Vision/website/ssv-wordpress-master/Sound Space Vision root.sublime-project"
