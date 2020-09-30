@@ -507,6 +507,14 @@
 				"line_ending": "Unix",
 				"name": "SearchBar.js"
 			}
+		},
+		{
+			"file": "src/components/ImageList.css",
+			"settings":
+			{
+				"buffer_size": 291,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -520,6 +528,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"toggle",
+				"View: Toggle Open Files in Side Bar"
+			],
 			[
 				"side",
 				"View: Toggle Side Bar"
@@ -907,7 +919,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -923,8 +935,8 @@
 						"selection":
 						[
 							[
-								826,
-								826
+								532,
+								532
 							]
 						],
 						"settings":
@@ -940,7 +952,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -970,7 +982,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -986,8 +998,8 @@
 						"selection":
 						[
 							[
-								550,
-								550
+								219,
+								219
 							]
 						],
 						"settings":
@@ -1001,7 +1013,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1056,8 +1068,8 @@
 						"selection":
 						[
 							[
-								317,
-								325
+								480,
+								492
 							]
 						],
 						"settings":
@@ -1072,6 +1084,34 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/components/ImageList.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1664,9 +1704,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "ssv",
+		"last_filter": "react",
 		"selected_items":
 		[
+			[
+				"react",
+				"~/Learning/react/videos/react video.sublime-project"
+			],
 			[
 				"ssv",
 				"~/Projects/Sound Space Vision/website/ssv-wordpress-master/wp-content/themes/ssv-sage-85-theme/SSV theme sage 85.sublime-project"
@@ -1756,7 +1800,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 204.0,
