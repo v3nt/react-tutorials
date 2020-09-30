@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import DOMPurify from "dompurify";
 
 const Search = () => {
   const [term, setTerm] = useState("soil needs worms");
@@ -32,11 +33,20 @@ const Search = () => {
   // array can have multiple items too.  const [termb, setTermb] ...
 
   const renderedResults = results.map((result) => {
+    const snippet = DOMPurify.sanitize(result.snippet, {
+      ALLOWED_TAGS: ["span"],
+    });
     return (
-      <div className="item" key="{result.pageid} ">
+      <div className="item" key="{result.pageid ? result.pageid : rand(500)} ">
         <div className="content">
           <div className="header">{result.title}</div>
-          <div className="snippet">{result.snippet}</div>
+          <div className="snippet">
+            <p>{snippet}</p>
+            {/*            <p>
+              <span dangerouslySetInnerHTML={{ __html: result.snippet }}></span>
+            </p>*/}
+            {/*{result.snippet}*/}
+          </div>
         </div>
       </div>
     );
