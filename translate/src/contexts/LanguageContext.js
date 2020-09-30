@@ -1,9 +1,25 @@
 import React from "react";
 
 // basic context objext
-export default React.createContext("english");
-// can do array or object
+const Context = React.createContext("english");
 
-// console.log(context);
+// wo 'default' for export yyou need to use {} whn importing.
+export class LanguageStore extends React.Component {
+  state = { language: "english" };
 
-// export default context;
+  onLanguageChange = (language) => {
+    this.setState({ language });
+    // same as language:language
+  };
+
+  render() {
+    return (
+      <Context.Provider value={{ ...this.state, onLanguageChange }}>
+        {this.props.children}
+      </Context.Provider>
+    );
+  }
+}
+
+export default context;
+// export default LanguageStore;
