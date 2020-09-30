@@ -1,11 +1,16 @@
 import React from "react";
-import logo from "./logo.svg";
-import Accordian from "./components/Accordian.js";
+import Accordion from "./components/Accordion.js";
+
+const items = [
+  { title: "title1", content: "test content" },
+  { title: "TWO", content: "test content WHY" },
+  { title: "III", content: "NOT test content" },
+];
 
 function App() {
   return (
-    <div className="App">
-      <Accordian></Accordian>
+    <div>
+      <Accordion items={items}></Accordion>
     </div>
   );
 }
