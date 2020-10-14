@@ -5,31 +5,34 @@ import DOMPurify from "dompurify";
 const Search = () => {
   const [term, setTerm] = useState("soil needs worms");
   const [results, setResults] = useState([]);
-  console.log(results);
+
   useEffect(() => {
-    // can't mark function with async or await in >useEffect ;-()
-    // #1 const search() ...
-    // so we can call a function that doesn't have a 'name'
-    // #2
-    //
-    if (term) {
-      (async () => {
-        const { data } = await axios.get("https://en.wikipedia.org/w/api.php", {
-          params: {
-            action: "query",
-            list: "search",
-            origin: "*",
-            format: "json",
-            srsearch: term,
-          },
-        });
-        setResults(data.query.search);
-      })();
-    }
-    // #3
-    // axios.get("abc").then((response) => {});
-    //
+    console.log("init & term changed");
+
+    const search = async () => {
+      const { data } = await axios.get("https://en.wikipedia.org/w/api.php", {
+        params: {
+          action: "query",
+          list: "search",
+          origin: "*",
+          format: "json",
+          srsearch: term,
+        },
+      });
+      setResults(data.query.search);
+    };
+
+    const timeoutId = setTimeout(() => {
+      if (term) {
+        search();
+      }
+    }, 500);
+    return () => {
+      console.log("cleanup " + timeoutId);
+      clearTimeout(timeoutId);
+    };
   }, [term]);
+
   // array can have multiple items too.  const [termb, setTermb] ...
 
   const renderedResults = results.map((result) => {
@@ -37,15 +40,19 @@ const Search = () => {
       ALLOWED_TAGS: ["span"],
     });
     return (
-      <div className="item" key="{result.pageid ? result.pageid : rand(500)} ">
+      <div className="item" key={result.pageid}>
+        <div className="right floated button">
+          <a
+            href={`https://en.wikipedia.org?curid=${result.pageid}`}
+            className="ui button"
+          >
+            Go
+          </a>
+        </div>
         <div className="content">
           <div className="header">{result.title}</div>
           <div className="snippet">
-            <p>{snippet}</p>
-            {/*            <p>
-              <span dangerouslySetInnerHTML={{ __html: result.snippet }}></span>
-            </p>*/}
-            {/*{result.snippet}*/}
+            <span dangerouslySetInnerHTML={{ __html: result.snippet }}></span>
           </div>
         </div>
       </div>
