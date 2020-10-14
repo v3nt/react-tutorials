@@ -22,18 +22,23 @@ const Search = () => {
       setResults(data.query.search);
     };
 
-    const timeoutId = setTimeout(() => {
-      if (term) {
-        search();
-      }
-    }, 500);
-    return () => {
-      console.log("cleanup " + timeoutId);
-      clearTimeout(timeoutId);
-    };
+    if (term && !results.length) {
+      search();
+    } else {
+      const timeoutId = setTimeout(() => {
+        if (term) {
+          search();
+        }
+      }, 500);
+
+      return () => {
+        console.log("cleanup " + timeoutId);
+        clearTimeout(timeoutId);
+      };
+    }
   }, [term]);
 
-  // array can have multiple items too.  const [termb, setTermb] ...
+  // array can have multiple items too.  const [termb, setTerm] ...
 
   const renderedResults = results.map((result) => {
     const snippet = DOMPurify.sanitize(result.snippet, {
