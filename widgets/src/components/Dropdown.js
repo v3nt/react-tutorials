@@ -11,9 +11,15 @@ const Dropdown = ({ options }) => {
   });
 
   return (
-    <div>
-      <h1>Dropdown</h1>
-      <div>{renderedOptions}</div>
+    <div className="ui form">
+      <div className="field">
+        <label className="label">Select a Color</label>
+        <div className="ui selection dropdown visible active">
+          <i className="dropdown icon"></i>
+          <div className="text">Select a color</div>
+          <div className="menu visible transition">{renderedOptions}</div>
+        </div>
+      </div>
     </div>
   );
 };

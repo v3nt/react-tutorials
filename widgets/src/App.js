@@ -18,9 +18,11 @@ const options = [
 function App() {
   return (
     <div className="ui page">
-      <Dropdown options={options} />
-      {/*<Search></Search>*/}
-      {/*      <Accordion items={items}></Accordion>*/}
+      <div className="ui content">
+        <Dropdown options={options} />
+        {/*<Search></Search>*/}
+        {/*      <Accordion items={items}></Accordion>*/}
+      </div>
     </div>
   );
 }
