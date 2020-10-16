@@ -19,7 +19,7 @@ function App() {
   const [selected, setSelected] = useState(options[0]);
   return (
     <div className="ui page">
-      <div className="ui content">
+      <div className="ui container">
         <Dropdown
           options={options}
           selected={selected}
