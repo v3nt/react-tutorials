@@ -5,15 +5,20 @@ const Dropdown = ({ options, title, selected, onSelectedChange }) => {
   const ref = useRef();
 
   useEffect(() => {
-    // addEventListener gets called first!
-    // only fire when comp is not clicked. So truley on the outseid of the comp.
-    document.body.addEventListener("click", (event) => {
+    const onBodyClick = (event) => {
       if (ref.current.contains(event.target)) {
         return;
       }
       setOpen(false);
-    });
-    return () => {};
+    };
+    // addEventListener gets called first!
+    // only fire when comp is not clicked. So truley on the outseid of the comp.
+    document.body.addEventListener("click", onBodyClick);
+
+    // cleanup function
+    return () => {
+      document.body.removeEventListener("click", onBodyClick);
+    };
   }, []);
 
   // how to close when not in component and click on DOM?
