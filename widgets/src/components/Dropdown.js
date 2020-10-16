@@ -1,7 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 const Dropdown = ({ options, title, selected, onSelectedChange }) => {
   const [open, setOpen] = useState(false);
+  const ref = useRef();
+
+  useEffect(() => {
+    // addEventListener gets called first!
+    // only fire when comp is not clicked. So truley on the outseid of the comp.
+    document.body.addEventListener("click", (event) => {
+      if (ref.current.contains(event.target)) {
+        return;
+      }
+      setOpen(false);
+    });
+    return () => {};
+  }, []);
+
+  // how to close when not in component and click on DOM?
   const renderedOptions = options.map((option) => {
     if (option.value === selected.value) {
       return null;
@@ -10,7 +25,10 @@ const Dropdown = ({ options, title, selected, onSelectedChange }) => {
         <div
           key={option.value}
           className="item"
-          onClick={() => onSelectedChange(option)}
+          onClick={() => {
+            onSelectedChange(option);
+            console.log("options");
+          }}
         >
           {option.label}
         </div>
@@ -19,11 +37,14 @@ const Dropdown = ({ options, title, selected, onSelectedChange }) => {
   });
 
   return (
-    <div className="ui form">
+    <div ref={ref} className="ui form">
       <div className="field">
         <label className="label">{title}</label>
         <div
-          onClick={() => setOpen(!open)}
+          onClick={() => {
+            setOpen(!open); // toggle value true / false
+            console.log("menu");
+          }}
           className={`ui selection dropdown ${open ? "visible active" : ""}`}
         >
           <i className="dropdown icon"></i>

@@ -17,15 +17,22 @@ const options = [
 
 function App() {
   const [selected, setSelected] = useState(options[0]);
+  const [showDropdown, setShowDropdown] = useState(true);
   return (
     <div className="ui page">
       <div className="ui container">
-        <Dropdown
-          options={options}
-          selected={selected}
-          onSelectedChange={setSelected}
-          title="Select a color"
-        />
+        <button onClick={() => setShowDropdown(!showDropdown)}>
+          Toggle dropdown
+        </button>
+        {showDropdown ? (
+          <Dropdown
+            options={options}
+            selected={selected}
+            onSelectedChange={setSelected}
+            title="Select a color"
+          />
+        ) : null}
+
         {/*<Search></Search>*/}
         {/*      <Accordion items={items}></Accordion>*/}
       </div>
