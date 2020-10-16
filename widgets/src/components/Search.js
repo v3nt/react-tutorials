@@ -30,13 +30,12 @@ const Search = () => {
           search();
         }
       }, 500);
-
       return () => {
         console.log("cleanup " + timeoutId);
         clearTimeout(timeoutId);
       };
     }
-  }, [term]);
+  }, [term, results.length]); // dependency array.
 
   // array can have multiple items too.  const [termb, setTerm] ...
 
