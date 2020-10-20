@@ -26,7 +26,7 @@ function App() {
         <Header />
         <Route path="/">
           <Accordion items={items} />
-        </Route>{" "}
+        </Route>
         <Route path="/list">
           <Search />
         </Route>
