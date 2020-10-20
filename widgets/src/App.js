@@ -4,6 +4,7 @@ import Search from "./components/Search";
 import Dropdown from "./components/Dropdown";
 import Translate from "./components/Translate";
 import Route from "./components/Route";
+import Header from "./components/Header";
 
 const items = [
   { title: "title1", content: "test content" },
@@ -18,36 +19,11 @@ const options = [
 ];
 
 function App() {
-  // const [selected, setSelected] = useState(options[0]);
-  // const [showDropdown, setShowDropdown] = useState(true);
-  const showAccordion = () => {
-    if (window.location.pathname === "/") {
-      return <Accordion items={items} />;
-    }
-  };
-  const showList = () => {
-    if (window.location.pathname === "/list") {
-      return <Search />;
-    }
-  };
-  const showDropdown = () => {
-    if (window.location.pathname === "/dropdown") {
-      return <Dropdown />;
-    }
-  };
-  const showTranslate = () => {
-    if (window.location.pathname === "/translate") {
-      return <Translate />;
-    }
-  };
-
-  const showComponent = (route, component) => {
-    return window.location.pathname === route ? component : null;
-  };
-
+  const [selected, setSelected] = useState(options[0]);
   return (
     <div className="ui page">
       <div className="ui container">
+        <Header />
         <Route path="/">
           <Accordion items={items} />
         </Route>{" "}
@@ -55,7 +31,12 @@ function App() {
           <Search />
         </Route>
         <Route path="/dropdown">
-          <Dropdown options={options} selected={options[0]} />
+          <Dropdown
+            options={options}
+            selected={selected}
+            title="pick A color"
+            onSelectedChange={setSelected}
+          />
         </Route>
         <Route path="/translate">
           <Translate />
