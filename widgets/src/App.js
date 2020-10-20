@@ -11,11 +11,11 @@ const items = [
   { title: "III", content: "NOT test content" },
 ];
 
-// const options = [
-//   { label: "A Red", value: "red" },
-//   { label: "A Green", value: "green" },
-//   { label: "A Blue", value: "blue" },
-// ];
+const options = [
+  { label: "A Red", value: "red" },
+  { label: "A Green", value: "green" },
+  { label: "A Blue", value: "blue" },
+];
 
 function App() {
   // const [selected, setSelected] = useState(options[0]);
@@ -52,10 +52,10 @@ function App() {
           <Accordion items={items} />
         </Route>{" "}
         <Route path="/list">
-          <Search items={items} />
+          <Search />
         </Route>
         <Route path="/dropdown">
-          <Dropdown />
+          <Dropdown options={options} selected={options[0]} />
         </Route>
         <Route path="/translate">
           <Translate />
