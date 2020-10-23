@@ -27,9 +27,6 @@ const App = ({}) => {
 
     setVideos(response.data.items);
     setSelectedVideo(response.data.items[0]);
-
-    // onVideoSelect(this.state.videos[0]);
-    // this.setState({ selectedVideo: this.state.videos[0] });
   };
 
   const onVideoSelect = (video) => {
