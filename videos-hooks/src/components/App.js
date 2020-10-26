@@ -1,41 +1,27 @@
 import React, { useState, useEffect } from "react";
 import SearchBar from "./SearchBar";
-import youtube from "../apis/youtube";
+
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
+import useVideos from "../hooks/useVideos";
 
-const KEY = "AIzaSyCpXfYtL5daB3uGGIKOeYNmaOJE01DDy_A";
-
-const App = ({}) => {
-  const [videos, setVideos] = useState([]);
+const App = () => {
   const [selectedVideo, setSelectedVideo] = useState("");
-
+  const [videos, search] = useVideos("green environmntal food");
   useEffect(() => {
-    onTermSubmit("green environmntal food");
-  }, []);
+    setSelectedVideo(videos[0]);
+  }, [videos]);
 
-  const onTermSubmit = async (term) => {
-    const response = await youtube.get("/search", {
-      params: {
-        q: term,
-        part: "snippet",
-        maxResults: 5,
-        type: "video",
-        key: KEY,
-      },
-    });
-
-    setVideos(response.data.items);
-    setSelectedVideo(response.data.items[0]);
-  };
-
-  const onVideoSelect = (video) => {
-    setSelectedVideo(video);
-  };
+  // const onVideoSelect = (video) => {
+  //   setSelectedVideo(video);
+  //   // if one line make it inline?           {/*onVideoSelect={onVideoSelect}*/}
+  //   //   onVideoSelect={(video) => setSelectedVideo(video)} can become
+  //   //   onVideoSelect={setSelectedVideo}
+  // };
 
   return (
     <div className="ui container">
-      <SearchBar onFormSubmit={onTermSubmit} />
+      <SearchBar onFormSubmit={search} />
       <div className="ui grid">
         <div className="ui row">
           <div className="eleven wide column">
@@ -44,7 +30,7 @@ const App = ({}) => {
           <div className="five wide column">
             <VideoList
               videos={videos}
-              onVideoSelect={onVideoSelect}
+              onVideoSelect={setSelectedVideo}
             ></VideoList>
           </div>
         </div>
