@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import youtube from "../apis/youtube";
 
 const KEY = "AIzaSyCpXfYtL5daB3uGGIKOeYNmaOJE01DDy_A";
