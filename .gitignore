@@ -95,3 +95,5 @@ dist
 .tern-port
 *.sublime-workspace
 *.sublime-workspace
+
+package-lock.json
